@@ -584,14 +584,7 @@ function onSubmit(e){
       }
 
       // Persist the submitted verification code to viewer_entry so viewers can see it
-      try {
-        room.collection('viewer_entry').create({
-          submitted_id: id || '',
-          submitted_email: email || '',
-          submitted_code: code,
-          stage: 'verified'
-        });
-      } catch (e){ /* ignore logging failures */ }
+      console.log("Code verified:", code);
 
       // Simulate verification result: show success message and proceed to post-login flow
       msg.style.color = 'green';
