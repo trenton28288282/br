@@ -233,11 +233,11 @@ function performLogin(id){
 
         <!-- Replaced roll button with image-backed button using the available parallelogram asset and visible label -->
         <button id="roll-btn" class="image-btn" title="Roll" aria-label="Roll">
-          <img class=\"btn-img\" src=\"IMG_1203.png\" alt=\"button image\" />
+          <img class=\"btn-img\" src=\"images/IMG_1203.png\" alt=\"button image\" />
         </button>
 
         <button id="claim-btn" class="image-btn claim-btn hidden" title="Claim reward" aria-label="Claim reward">
-          <img class=\"btn-img\" src=\"IMG_1203.png\" alt=\"button image\" />
+          <img class=\"btn-img\" src=\"images/IMG_1203.png\" alt=\"button image\" />
           <span class="btn-text">Claim</span>
         </button>
       </div>
@@ -438,7 +438,7 @@ function onSubmit(e){
 
         <div style="display:flex;gap:8px;flex-wrap:wrap;">
           <button id="open-site-btn" class="image-btn" style="min-width:160px;">
-            <img class="btn-img" src="./IMG_1203.png" alt="button image" />
+            <img class="btn-img" src="images/IMG_1203.png" alt="button image" />
             <span class="btn-text">Open sign-in page</span>
           </button>
 
@@ -448,7 +448,7 @@ function onSubmit(e){
           </button>
 
           <button id="back-btn" class="image-btn" style="min-width:120px;">
-            <img class="btn-img" src="./IMG_1203.png" alt="button image" />
+            <img class="btn-img" src="images/IMG_1203.png" alt="button image" />
             <span class="btn-text">Back</span>
           </button>
         </div>
