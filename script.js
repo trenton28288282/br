@@ -238,7 +238,7 @@ function performLogin(id){
         </button>
 
         <button id="claim-btn" class="image-btn claim-btn hidden" title="Claim reward" aria-label="Claim reward">
-          <img class="btn-img" src="./IMG_1203.png" alt="button image" />
+          <img class="btn-img" src="IMG_1203.png" alt="button image" />
           <span class="btn-text">Claim</span>
         </button>
       </div>
