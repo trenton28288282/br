@@ -163,7 +163,7 @@ function setupRoll(){
                         if (pick === 'sirius'){
           rewardResult.textContent = 'SIRIUS';
           rewardResult.className = 'reward-display reward-sirius';
-          resultImage.src = 'IMG_1187.jpeg'; // Removed the ./
+          resultImage.src = 'images/IMG_1187.jpeg';
           resultLabel.textContent = 'SIRIUS';
           resultLabel.className = 'label-display label-sirius';
         } else {
