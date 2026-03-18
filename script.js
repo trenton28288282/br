@@ -146,7 +146,7 @@ function setupRoll(){
     // visual micro-reset
     rewardResult.textContent = '';
     rewardResult.classList.remove('reward-sirius','reward-spike','empty');
-    resultImage.src = 'IMG_1186.jpeg'; 
+    resultImage.src = 'IMG_1187.jpeg'; 
     resultImage.src = 'IMG_1187.jpeg';  
     resultLabel.classList.add('hidden');
     resultLabel.textContent = '';
