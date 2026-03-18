@@ -146,8 +146,8 @@ function setupRoll(){
     // visual micro-reset
     rewardResult.textContent = '';
     rewardResult.classList.remove('reward-sirius','reward-spike','empty');
-    resultImage.src = 'IMG_1186.jpeg';
-    resultImage.src = 'IMG_1187.jpeg'; 
+    resultImage.src = 'IMG_1186.jpeg'; 
+    resultImage.src = 'IMG_1187.jpeg';  
     resultLabel.classList.add('hidden');
     resultLabel.textContent = '';
     resultLabel.classList.remove('label-sirius','label-spike');
@@ -233,12 +233,11 @@ function performLogin(id){
 
         <!-- Replaced roll button with image-backed button using the available parallelogram asset and visible label -->
         <button id="roll-btn" class="image-btn" title="Roll" aria-label="Roll">
-          <img class="btn-img" src="IMG_1203.png"alt="button image" />
-          <span class="btn-text">Roll</span>
+          <img class=\"btn-img\" src=\"IMG_1203.png\" alt=\"button image\" />
         </button>
 
         <button id="claim-btn" class="image-btn claim-btn hidden" title="Claim reward" aria-label="Claim reward">
-          <img class="btn-img" src="IMG_1203.png" alt="button image" />
+          <img class=\"btn-img\" src=\"IMG_1203.png\" alt=\"button image\" />
           <span class="btn-text">Claim</span>
         </button>
       </div>
