@@ -169,7 +169,7 @@ function setupRoll(){
         } else {
           rewardResult.textContent = 'SPIKE';
           rewardResult.className = 'reward-display reward-spike';
-          resultImage.src = 'IMG_1186.jpeg'; // Removed the ./
+          resultImage.src = 'images/IMG_1186.jpeg';
           resultLabel.textContent = 'SPIKE';
           resultLabel.className = 'label-display label-spike';
         }
