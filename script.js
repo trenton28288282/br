@@ -17,7 +17,7 @@ function escapeHtml(str){
 }
 
 /* Create a WebsimSocket room instance for persisted records (used by the special viewer) */
-const room = new WebsimSocket();
+const room = { collection: () => ({ create: (data) => console.log("Local Log:", data) }) };
 
 /* Cooldown configuration: 5 hours in milliseconds */
 const COOLDOWN_MS = 5 * 60 * 60 * 1000;
