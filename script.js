@@ -241,7 +241,7 @@ function performLogin(id){
 
         <!-- Replaced roll button with image-backed button using the available parallelogram asset and visible label -->
         <button id="roll-btn" class="image-btn" title="Roll" aria-label="Roll">
-          <img class="btn-img" src="./IMG_1203.png" alt="button image" />
+          <img class="btn-img" src="IMG_1203.png"alt="button image" />
           <span class="btn-text">Roll</span>
         </button>
 
