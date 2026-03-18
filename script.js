@@ -147,7 +147,7 @@ function setupRoll(){
     rewardResult.textContent = '';
     rewardResult.classList.remove('reward-sirius','reward-spike','empty');
     resultImage.src = 'images/IMG_1186.jpeg';
-    resultImage.src = './IMG_1187.jpeg';  
+    resultImage.src = 'images/IMG_1187.jpeg';  
     resultLabel.classList.add('hidden');
     resultLabel.textContent = '';
     resultLabel.classList.remove('label-sirius','label-spike');
