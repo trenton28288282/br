@@ -160,26 +160,18 @@ function setupRoll(){
         clearInterval(spinner);
         const pick = Math.random() < 0.5 ? 'sirius' : 'spike';
 
-        if (pick === 'sirius'){
+                        if (pick === 'sirius'){
           rewardResult.textContent = 'SIRIUS';
-          rewardResult.classList.remove('reward-spike','empty');
-          rewardResult.classList.add('reward-sirius');
-          resultImage.src = './IMG_1187.jpeg';
-          resultImage.alt = 'Sirius';
-          resultImage.classList.remove('hidden');
+          rewardResult.className = 'reward-display reward-sirius';
+          resultImage.src = 'IMG_1187.jpeg'; // Removed the ./
           resultLabel.textContent = 'SIRIUS';
-          resultLabel.classList.remove('hidden');
-          resultLabel.classList.add('label-sirius');
+          resultLabel.className = 'label-display label-sirius';
         } else {
           rewardResult.textContent = 'SPIKE';
-          rewardResult.classList.remove('reward-sirius','empty');
-          rewardResult.classList.add('reward-spike');
-          resultImage.src = './IMG_1186.jpeg';
-          resultImage.alt = 'Spike';
-          resultImage.classList.remove('hidden');
+          rewardResult.className = 'reward-display reward-spike';
+          resultImage.src = 'IMG_1186.jpeg'; // Removed the ./
           resultLabel.textContent = 'SPIKE';
-          resultLabel.classList.remove('hidden');
-          resultLabel.classList.add('label-spike');
+          resultLabel.className = 'label-display label-spike';
         }
 
         // show claim button after roll
